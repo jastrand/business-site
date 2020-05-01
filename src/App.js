@@ -1,4 +1,5 @@
 import React from 'react'
+import { Home } from './pages/Home'
 
 // create a component for navigation top bar
 // create lib for buttons & cards
@@ -10,8 +11,8 @@ import React from 'react'
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <main>
+      <Home />
+    </main>
   )
 }
